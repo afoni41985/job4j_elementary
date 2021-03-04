@@ -8,6 +8,5 @@ public class Greating {
         int year = 2021;
         String result2 = result + year;
         System.out.println(result2);
-
     }
 }
