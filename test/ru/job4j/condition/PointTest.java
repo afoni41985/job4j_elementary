@@ -9,7 +9,7 @@ public class PointTest {
 
     @Test
     public void when12To34Then16() {
-        int expected = 3;
+        int expected = 16;
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
@@ -20,7 +20,7 @@ public class PointTest {
 
     @Test
     public void when01To02Then4() {
-        int expected = 3;
+        int expected = 4;
         int x1 = 0;
         int y1 = 1;
         int x2 = 0;
@@ -30,8 +30,8 @@ public class PointTest {
     }
 
     @Test
-    public void when11To22Then16() {
-        int expected = 3;
+    public void when11To22Then10() {
+        int expected = 10;
         int x1 = 1;
         int y1 = 1;
         int x2 = 2;
