@@ -9,7 +9,6 @@ public class Converter {
     public static int rubleToDollar(int value) {
         return value / 60;
     }
-
     public static void main(String[] args) {
         int dollars = Converter.rubleToDollar(140);
         int euro = Converter.rubleToEuro(140);
