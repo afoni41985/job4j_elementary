@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void when12To34Then16() {
-        int expected = 16;
+    public void when12To34Then2() {
+        double expected = 2.82;
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
@@ -19,8 +19,8 @@ public class PointTest {
     }
 
     @Test
-    public void when01To02Then4() {
-        int expected = 4;
+    public void when01To02Then1() {
+        double expected = 1.0;
         int x1 = 0;
         int y1 = 1;
         int x2 = 0;
@@ -30,8 +30,8 @@ public class PointTest {
     }
 
     @Test
-    public void when11To22Then10() {
-        int expected = 10;
+    public void when11To22Then1() {
+        double expected = 1.41;
         int x1 = 1;
         int y1 = 1;
         int x2 = 2;
