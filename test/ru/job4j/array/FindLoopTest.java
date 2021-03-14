@@ -27,11 +27,11 @@ public class FindLoopTest {
     @Test
     public void whenFind2() {
         int[] data = new int[]{1, 2, 3, 4, 5, 6, 7};
-        int el = 3;
+        int el = 5;
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 2;
+        int expected = 4;
         Assert.assertEquals(expected, result);
     }
 
