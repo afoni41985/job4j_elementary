@@ -12,7 +12,6 @@ public class Machine {
             while (cashBack - coin >= 0) {
                 cashBack -= coin;
                 rsl[size++] = coin;
-
             }
         }
         return Arrays.copyOf(rsl, size);
