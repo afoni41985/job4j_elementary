@@ -15,10 +15,21 @@ public class RandomDream {
         }
         int xxx = num % 4;
         switch (xxx) {
-            case 1 -> prize = prizes[0];
-                case 2 -> prize = prizes[1];
-                case 3 -> prize = prizes[2];
-                case 0 -> prize = prizes[3];
+            case 1 -> {
+                prize = prizes[0];
+            }
+            case 2 -> {
+                prize = prizes[1];
+            }
+            case 3 -> {
+                prize = prizes[2];
+            }
+            case 0 -> {
+                prize = prizes[3];
+            }
+            default -> {
+                prize = prizes[4];
+            }
         }
         return prize;
     }
